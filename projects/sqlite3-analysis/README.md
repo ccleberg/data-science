@@ -6,7 +6,7 @@ sqlite3 ./chinook.db
 ```
 
 ```sql
-# Enable some features and export the CSV results of the script
+-- Enable some features and export the CSV results of the script
 .headers on
 .mode csv
 .output /home/cmc/git/data-science/projects/sql-dashboard/employee_sales.csv
